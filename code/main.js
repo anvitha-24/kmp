@@ -52,3 +52,4 @@ let searchWord = "HFDHFGHB";
 const index = Search(searchText,searchWord);
 document.write(index>0?`${searchWord} found at index ${index}`:"Word not found");
 console.log(index);
+console.log()
