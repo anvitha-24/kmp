@@ -47,8 +47,8 @@ const Search = (text, searchWord)=> {
     return -1;
   }
 
-//let searchText = "UUHHHJHIIJJJJJ HFDHFGHB JKFGIUYT JHGKJFUFT DFHGVJKGJHGJVBB VJVGGF";
-//let searchWord = "HFDHFGHB";
-//const index = Search(searchText,searchWord);
-//document.write(index>0?`${searchWord} found at index ${index}`:"Word not found");
+let searchText = "UUHHHJHIIJJJJJ HFDHFGHB JKFGIUYT JHGKJFUFT DFHGVJKGJHGJVBB VJVGGF";
+let searchWord = "HFDHFGHB";
+const index = Search(searchText,searchWord);
+document.write(index>0?`${searchWord} found at index ${index}`:"Word not found");
 console.log(index);
